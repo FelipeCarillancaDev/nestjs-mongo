@@ -5,7 +5,8 @@
 # Ejecutar en desarrollo
 
 1. clonar el repositorio
-2. Ejecutar comando de
+
+2. Ejecutar comando
 ```
 yarn install
 ```
@@ -19,8 +20,17 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. clonar el archivo __.env.template__ y renombrar la copia a __.env__
 
-5. Reconstruir la BD con la semilla(seed)
+6. Llenar las variables de entorno definidas en el 
+``` .env```
+
+7. Ejecutar la aplicación en dev
+```
+yarn start:dev
+```
+
+8. Reconstruir la BD con la semilla(seed)
 ```
 http://localhost:3000/api/v2/seed
 ```
