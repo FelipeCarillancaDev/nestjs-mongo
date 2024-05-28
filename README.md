@@ -5,7 +5,7 @@
 # Ejecutar en desarrollo
 
 1. clonar el repositorio
-2. Ejecutar comando d
+2. Ejecutar comando de
 ```
 yarn install
 ```
